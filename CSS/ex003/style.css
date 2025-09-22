@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    background-color: aqua;
+    border-radius: 5px;
+    border: 2px solid blue;
+    padding: 30px;
+    margin: 30px;
+    margin-left: 400px;
+    margin-right: 600px;
+}
+h2{
+    color: blue;
+ 
+}
+.botao1{
+    background-color: brown;
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 4px;
+}
+.botao2{
+    background-color: rgb(43, 45, 216);
+    color: white;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 4px;
+}

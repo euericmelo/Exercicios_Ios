@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Formulario Simples</h1>
+    <form action="" method="post"> <!-- Post envia Para banco ext-->
+        <p><label for="iname">Nome:</label><input type="text" name="name" id="iname"></p>
+        <p></p> <label for="iemail">Email:</label><input type="email" name="email" id="iemail"></p>
+        <p></p> <label for="ipassword">Senha</label><input type="password" name="password" id="ipassword"></p>
+        <p><label for=""></label><input type="submit" name="cadrasto" id="icadrasto" value="Cadrasto"> </p>
+    </form>
+    <hr>
+    <h1>Formulario De Cadrasto</h1>
+    <form action="" method="post">
+        <p><label for="nomec">Nome Completo</label> <input type="text" id="nomec"></p>
+        <p><label for="user">Nome de usuario</label> <input type="text" id="user"></p>
+        <p><label for="email">Email</label> <input type="email" id="email"></p>
+        <p><label for="senha">Senha</label> <input type="password" id="senha"></p>
+        <p><label for="timao">Sao Paulo</label><input type="radio"name="sp" id="timao" >
+            <label for="timao">Sao Paulo</label><input type="radio"name="sp" id="timao" >
+            <label for="timao">Sao Paulo</label><input type="radio"name="sp" id="timao" >
+             <!--lista tipo radio/ add label/nome/id-->
+        </p>
+        <p><label for="tec">Tecnologia</label><input type="checkbox" name="Tecnologia" id="tec">
+            <label for="msc">Musica</label><input type="checkbox" name="Musica" id="msc">
+            <label for="">Esporte</label><input type="checkbox" name="Esporte" id="esp">
+            <!---->
+        </p>
+       <select name="cidade" id="icidade">
+            <option value="SP">Selecione...</option>
+            <option value="SP">Sao Paulo</option>
+            <option value="BH">Belo Horizonte</option>
+            <option value="SE">Sergipe</option>
+             <!---->
+        </select>
+        <p>Mensagem <br>
+            <textarea name="texta" id="texta" cols="30" rows="10"></textarea>
+        </p><br>
+        <p><label for=""></label><input type="submit">
+            <label for=""></label><input type="reset">
+             <!--add tipe reset para formata o texto dodd form-->
+        </p>
+</body>
+
+</html>
